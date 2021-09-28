@@ -12,7 +12,6 @@ h1 {
 #MainHeader{
   text-align: left;
   color: white;
-  padding: 0px 20;
 }
 ul {
   list-style-type: none;
@@ -33,7 +32,6 @@ li a {
   color: white;
   text-align: right;
   text-decoration: none;
-  padding: 20px 0; // try to doo
 }
 li a:hover {
   background-color: #111;
