@@ -12,6 +12,7 @@ h1 {
 #MainHeader{
   text-align: left;
   color: white;
+  padding: 20px 16px;
 }
 
 ul {
