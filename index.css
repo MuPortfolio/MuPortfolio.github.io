@@ -8,5 +8,8 @@ p {
 }
 h1 {
   font-family: helvetica;
-  
+}
+#Header{
+  background-color: lightblue;
+  text-align: center;
 }
