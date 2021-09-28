@@ -13,6 +13,9 @@ h1 {
   text-align: left;
   color: white;
 }
+#header{
+   padding: 20px 16px;
+}
 ul {
   list-style-type: none;
   margin: 0;
