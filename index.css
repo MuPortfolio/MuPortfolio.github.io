@@ -12,11 +12,13 @@ h1 {
 #MainHeader{
   text-align: left;
   color: white;
+    margin: 10;
+  padding: 10;
 }
 ul {
   list-style-type: none;
-  margin: 10;
-  padding: 10;
+  margin: 0;
+  padding: 0;
   overflow: hidden;
   background-color: #333;
 }
