@@ -1,5 +1,6 @@
 body {
   text-align: center;
+   background: #a3dcff;
 }
 p {
   font-family: verdana;
@@ -30,4 +31,9 @@ li a {
 }
 li a:hover {
   background-color: #111;
+}
+#footer {
+  color: #99ff99;
+  font-size: 14px;
+  background-color: #331933;
 }
