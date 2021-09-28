@@ -23,6 +23,8 @@ ul {
 
 li {
   float: right;
+     margin: 10;
+  padding: 10;
 }
 
 li a {
@@ -30,8 +32,6 @@ li a {
   color: white;
   text-align: right;
   text-decoration: none;
-     margin: 10;
-  padding: 10;
 }
 li a:hover {
   background-color: #111;
