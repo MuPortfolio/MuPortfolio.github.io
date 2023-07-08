@@ -1,58 +1,97 @@
 <!DOCTYPE html>
-<html lang="en">
-    <head>
-        <meta charset="utf-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-        <meta name="description" content="" />
-        <meta name="author" content="" />
-        <title>Portfolioni</title>
-		   <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
-        <!-- Font Awesome icons (free version)-->
-        <script src="https://use.fontawesome.com/releases/v5.15.3/js/all.js" crossorigin="anonymous"></script>
-        <link href="css/styles.css" rel="stylesheet" />
-    </head>
-    <body id="page-top">
-        <!-- Navigation-->
-        <nav class="navbar navbar-expand-lg bg-secondary text-uppercase fixed-top" id="mainNav">
-            <div class="container">
-                <a class="navbar-brand" href="#page-top">Portfolio</a>
-                <button class="navbar-toggler text-uppercase font-weight-bold bg-primary text-white rounded" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-                    Menu
-                    <i class="fas fa-bars"></i>
+
+
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Portfolio</title>
+
+    <!-- mobile responsive meta -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  
+ 
+
+    <!-- ** Plugins Needed for the Project ** -->
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="plugins/bootstrap/bootstrap.min.css">
+    <link rel="stylesheet" href="plugins/fontawesome/css/all.css">
+
+    <!-- Main Stylesheet -->
+    <link href="css/style.css" rel="stylesheet">
+
+    <!--Favicon-->
+    <link rel="shortcut icon" href="images/favicon.png" type="image/x-icon">
+    <link rel="icon" href="images/favicon.png" type="image/x-icon">
+
+</head>
+<body>
+    <!-- START preloader-wrapper -->
+    <div class="preloader-wrapper">
+        <div class="preloader-inner">
+            <div class="spinner-border text-red"></div>
+        </div>
+    </div>
+    <!-- END preloader-wrapper -->
+    
+    <!-- START main-wrapper -->
+    <section class="d-flex">
+  
+<!-- start of sidenav -->
+<aside><div class="sidenav position-sticky d-flex flex-column justify-content-between">
+    <a class="navbar-brand" href="index.html" class="logo">
+        
+    </a>
+    <!-- end of navbar-brand -->
+
+    <div class="navbar navbar-dark my-4 p-0 font-primary">
+        <ul class="navbar-nav w-100">
+            <li class="nav-item active">
+                <a class="nav-link text-white px-0 pt-0" href="index.html">Etusivu</a>
+            </li>
+            <li class="nav-item ">
+                <a class="nav-link text-white px-0" href="about.html">Itsestäni</a>
+            </li>
+            <li class="nav-item ">
+                <a class="nav-link text-white px-0" href="contact.html">Osaamiseni</a>
+            </li>
+            <li class="nav-item  accordion">
+                <div id="drop-menu" class="drop-menu collapse">
+                    <a class="d-block " href="index-2.html">Home 2</a>
+                    <a class="d-block " href="privacy.html">Privacy &amp; Policy</a>
+                </div>
+                <a class="nav-link text-white" href="#!" role="button" data-toggle="collapse" data-target="#drop-menu" aria-expanded="false" aria-controls="drop-menu">Projektini</a>
+            </li>
+            <li class="nav-item mt-3">
+                 	<select class="custom-select bg-transparent rounded-0 text-white shadow-none" name="formal" onchange="javascript:handleSelect(this)">
+					<option value="../suomi/index.html">Suomi</option>
+					<option value="../english/index.html">Englanti</option>
+				</select>
+            </li>
+        </ul>
+    </div>
+    <!-- end of navbar -->
+
+  
+</div></aside>
+<!-- end of sidenav -->
+    <div class="main-content">
+        <!-- start of mobile-nav -->
+<header class="mobile-nav pt-4">
+    <div class="container">
+        <div class="row align-items-center">
+      
+            <div class="col-12 text-right">
+                <button class="nav-toggle bg-transparent border text-white">
+                    <span class="fas fa-bars"></span>
                 </button>
-                <div class="collapse navbar-collapse" id="navbarResponsive">
-                    <ul class="navbar-nav ms-auto">
-                        <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded" href="#osaamiseni">Osaamiseni</a></li>
-                        <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded" href="#itsestani">Itsestani</a></li>
-			 <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded" href="#koulutus">Koulutus</a></li>
-                    </ul>
-                </div>
             </div>
-        </nav>
-        
-        </header>
-        <!-- Portfolio Section-->
-        <section class="page-section portfolio" id="portfolio">
-            <div class="container">
-                <!-- Portfolio Section Heading-->
-                <h2 class="page-section-heading text-center text-uppercase text-secondary mb-0">Portfolio</h2>
-        </section>
-        <!-- osaamiseni Section-->
-        <section class="page-section bg-primary text-white mb-0" id="osaamiseni">
-            <div class="container">
-                <!-- osaamiseni Section Heading-->
-                <h2 class="page-section-heading text-center text-uppercase text-white">Osaamiseni</h2>
-                <!-- osaamiseni Section Content-->
-                <div class="row">
-			<div class="text-center mt-4"><p class="lead"><ul><li>Word - hyvä</li><li> Excel - hyvä</li></ul></p>
-		   <ul>
-               <li>HTML - Erinnomainen</li><li>CSS - Erinnomainen</li><li>PHP - hyvä</li><li> Javascript - Tyydyttävä</li><li> Java - Tyydyttävä</li> <li> React - Hyvä</li>
-                 <li> MySQL - Hyvä</li>	<li> C# - Tyydyttävä</li> <li> SaSS - tyydyttävä</li>  <li>Windows 10</li></div>
-</ul> </p></div>
-                </div>
-            </div>
-        </section>
-        
+        </div>
+    </div>
+</header>
+<div class="nav-toggle-overlay"></div>
+<!-- end of mobile-nav -->
+
         <div class="container pt-4 mt-5">
             <div class="row justify-content-between">
                 <div class="col-lg-7">
@@ -78,45 +117,15 @@
         </div>
 
     </div>
-     <section class="page-section" id="koulutus">
-            <div class="container">
-                <!-- koulutus Section Heading-->
-                <h2 class="page-section-heading text-center text-uppercase text-secondary mb-0">Koulutus</h2>
-               <div class="row">
-                    <div class="text-center mt-4"><p class="lead">Opiskelin Tieto- ja viestintätekniikkaa Tredussa.</p></div>
-                   
-                </div>
-            </div>
-		
-        </section>
-		<section class="page-section2 bg-primary text-white mb-0" id="osaamiseni">
-            <div class="container">
-                <!-- osaamiseni Section Heading-->
-                <h2 class="text-center text-uppercase text-white">Muuta </h2>
-				<br>
-					<div class="muut">
-					    <a class="lead" href="/fanikauppa/index.html">Fanikauppa (react kouluprojekti)</a>
-					</div>
-			</div>
-        </section>
-        <!-- Footer-->
-        <footer class="footer text-center">
-            <div class="container">
-                <div class="row">
-                    <!-- Footer Location-->
-                    <div class="col-lg-4 mb-5 mb-lg-0">
-                        <h4 class="text-uppercase mb-4">Location</h4>
-                        <p class="lead mb-0">
-                           Tampere
-                        </p>
-                    </div>
-                </div>
-            </div>
-        </footer>
-        <!-- Copyright Section-->
-        <div class="copyright py-4 text-center text-white">
-            <div class="container"><small>Copyright &copy; </small></div>
-        </div>
-    </body>
-	    <script src="js/scripts.js"></script>
+
+    </section>
+    <!-- END main-wrapper -->
+
+    <!-- All JS Files -->
+    <script src="plugins/jQuery/jquery.min.js"></script>
+    <script src="plugins/bootstrap/bootstrap.min.js"></script>
+
+    <!-- Main Script -->
+    <script src="js/script.js"></script>
+</body>
 </html>
