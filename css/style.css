@@ -537,10 +537,13 @@ ul, li {
 -------------------------------------------------------------------*/
 .post-item .card-img-top {
   transition: 0.3s;
+  max-height: 500px;
+  max-height: 450px;
 }
 .post-item .card-img-top:hover {
   filter: grayscale(0.5);
   -webkit-filter: grayscale(0.5);
+  
 }
 
 .post-meta li a {
