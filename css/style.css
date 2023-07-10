@@ -537,7 +537,7 @@ ul, li {
 -------------------------------------------------------------------*/
 .post-item .card-img-top {
   transition: 0.3s;
-  max-height: 400px;
+  max-height: 450px;
   max-height: 350px;
 }
 .post-item .card-img-top:hover {
