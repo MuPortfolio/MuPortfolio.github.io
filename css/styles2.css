@@ -1,0 +1,31 @@
+.piilota {
+    display: none;
+    
+  }
+img{
+max-height: 400px;
+max-width: 330px;
+float:left;
+}
+p{
+    padding-right: 50px;
+
+}
+h2{
+    padding: 25px;
+    background-color: coral;
+}   
+.k-oikea {
+    max-height: 400px;
+    max-width: 330px;
+    float:right;
+    }
+body{
+    background-color: pink;
+}
+h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6, p {
+    margin: 0;
+}
+
+
+  

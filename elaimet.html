@@ -15,16 +15,47 @@
     <link rel="stylesheet" href="plugins/fontawesome/css/all.css">
 
     <!-- Main Stylesheet -->
-    <link href="css/style.css" rel="stylesheet">
-
-    <h1>Eläinten hoito</h1>
-    <img src="rabbit.png" alt="">
-    </li>
-    <a class="nav-link text-white" href="#!" role="button" data-toggle="collapse" data-target="#drop-menu" aria-expanded="false" aria-controls="drop-menu"><h2>Kanien hoito</h2></a>
-    <li class="nav-item active accordion">
-        <div id="drop-menu" class="drop-menu collapse">
-            <a class="d-block active" href="index-2.html">Kanit syövät vettä ja juovat vettä. Niille ei kannta antaa porkkanoita</a>
-            
-        </div>
+    <link href="css/styles2.css" rel="stylesheet">
     
-    </li>
+    <h1>Eläinten hoito</h1>
+    
+    <body>
+   
+    <h2 type="button" onclick="myFunction()">Kanien hoito</h2>
+    <img src="images/rabbit.png" alt="">
+    <div id="kanit">
+    <p >kanit kuuluu pitää sisätiloissa joissa ne pystyvät likkumaan vapaasti. Niille kannattaa paljon heinää ja vesi myös helposti saataville</p>
+    <p>Muista hankkia kanille myos laatikko johon ne voivat mennä hoitaamaan tarpeensa</p>
+    <p>Porkkanat eivät ole tervellisiä kanille joten niitä kannattaa antaa sille muuta kuin super harvoin</p>
+    </div>
+    <h2 type="button" onclick="myDog()">Koirien hoito</h2>
+    <img  src="images/dog.png" alt="">
+    <p id="dog">Koirat kannattaa usein viedä kävelyylle tämä olisi hyvä tehdä ainakin kahdesti päivässä, yleensä aikaisemmin päivälllä ja 
+    ja vielä myöhemmin illala. Näitten lisäksi olisi hyvä kävelyttää eripaivinä normaalia useammin, mutta älä pidä niitä liian kauvan
+    ulkona kylmällä säällä eri sairauksien varalta.
+    </p>
+    <h2 type="button" onclick="myIguana()">Iguana</h2>
+    <img  src="images/iguana.jpg" alt="">
+    <div id="lisko">
+    <p>iquanat eivät tykkää eivät tykkää ihmiskontaksita ja yrittävät usein karata.</p>
+    <p>Mukautetun terraaria on paras vaihtoehto iguanalle sillä monet terraariat eivät täytä niiden tarpeita. </p>
+    <p></p>
+    </div>
+    <script>
+        function myFunction() {
+           var element = document.getElementById("kanit");
+           element.classList.toggle("piilota");
+        
+        }
+        function myDog(){
+            var element = document.getElementById("dog");
+            element.classList.toggle("piilota");
+        }
+        function myIguana(){
+            var element = document.getElementById("lisko");
+            element.classList.toggle("piilota");
+        }
+        </script>
+      
+    </body>    
+
