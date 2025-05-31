@@ -189,11 +189,11 @@ body.loaded {
 }
 
 .text-dark {
-  color: #321f67 !important;
+  color: #2a233c !important;
 }
 
 .bg-dark {
-  background-color: #321f67 !important;
+  background-color: #2a233c !important;
 }
 
 .bg-black {
@@ -426,7 +426,7 @@ ul, li {
     z-index: 9995;
     top: 0;
     left: -250px;
-    background-color: #321f67;
+    background-color: #2a233c;
   }
 }
 .sidenav .navbar-brand img {
@@ -483,7 +483,7 @@ ul, li {
   border: 1px solid #ffffff !important;
 }
 .sidenav select option {
-  background-color: #321f67;
+  background-color: #2a233c;
 }
 
 .mobile-nav {
@@ -680,7 +680,7 @@ ul, li {
   border-bottom: 1px solid #333139;
 }
 .contact-form select option {
-  background-color: #321f67
+  background-color: #2a233c
   
 ;
   color: #ffffff;
